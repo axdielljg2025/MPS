@@ -13,146 +13,178 @@ badges:
 ## Usage
 
 ::stack
-  ::div{class="p-4"}
-  ::alert{icon="lucide:info"}
+  :::div{.p-4}
+    ::::alert{icon="lucide:info"}
     A **default** alert with `code` and a [link](/).
-  ::
-
-  ::alert{type="secondary" icon="lucide:info"}
+    ::::
+  
+    ::::alert{icon="lucide:info" type="secondary"}
     A **secondary** alert with `code` and a [link](/).
-  ::
-  ::
-  ```mdc
-  ::alert{icon="lucide:info"}
-    A **default** alert with `code` and a [link](/).
-  ::
+    ::::
+  :::
 
-  ::alert{type="secondary" icon="lucide:info"}
-    A **secondary** alert with `code` and a [link](/).
-  ::
-  ```
+```mdc
+::alert{icon="lucide:info"}
+  A **default** alert with `code` and a [link](/).
+::
+
+::alert{type="secondary" icon="lucide:info"}
+  A **secondary** alert with `code` and a [link](/).
+::
+```
 ::
 
 ### Link
 
 ::stack
-  ::div{class="p-4"}
-  ::alert{to="https://github.com/ZTL-UwU/shadcn-docs-nuxt" target="_blank" icon="lucide:link"}
+  :::div{.p-4}
+    ::::alert
+    ---
+    icon: lucide:link
+    target: _blank
+    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    ---
     A **link** alert.
-  ::
-  ::
-  ```mdc
-  ::alert{to="https://github.com/ZTL-UwU/shadcn-docs-nuxt" target="_blank" icon="lucide:link"}
-    A **link** alert.
-  ::
-  ```
+    ::::
+  :::
+
+```mdc
+::alert{to="https://github.com/ZTL-UwU/shadcn-docs-nuxt" target="_blank" icon="lucide:link"}
+  A **link** alert.
+::
+```
 ::
 
 ### Variants
 
 ::tabs{variant="line"}
-  ::stack{label="info" icon="lucide:info"}
-    ::div{class="p-3"}
-    ::alert{type="info" icon="lucide:info"}
+  :::stack{icon="lucide:info" label="info"}
+    ::::div{.p-3}
+      :::::alert{icon="lucide:info" type="info"}
       An **info** alert with `code` and a [link](/).
-    ::
-    ::
-    ```mdc
-    ::alert{type="info" icon="lucide:info"}
-      An **info** alert with `code` and a [link](/).
-    ::
-    ```
+      :::::
+    ::::
+  
+  ```mdc
+  ::alert{type="info" icon="lucide:info"}
+    An **info** alert with `code` and a [link](/).
   ::
+  ```
+  :::
 
-  ::stack{label="note" icon="lucide:pencil"}
-    ::div{class="p-3"}
-    ::alert{type="note" icon="lucide:pencil"}
+  :::stack{icon="lucide:pencil" label="note"}
+    ::::div{.p-3}
+      :::::alert{icon="lucide:pencil" type="note"}
       A **note** alert with `code` and a [link](/).
-    ::
-    ::
-    ```mdc
-    ::alert{type="note" icon="lucide:pencil"}
-      A **note** alert with `code` and a [link](/).
-    ::
-    ```
+      :::::
+    ::::
+  
+  ```mdc
+  ::alert{type="note" icon="lucide:pencil"}
+    A **note** alert with `code` and a [link](/).
   ::
+  ```
+  :::
 
-  ::stack{label="success" icon="lucide:lightbulb"}
-    ::div{class="p-3"}
-    ::alert{type="success" icon="lucide:lightbulb"}
+  :::stack{icon="lucide:lightbulb" label="success"}
+    ::::div{.p-3}
+      :::::alert{icon="lucide:lightbulb" type="success"}
       A **success** alert with `code` and a [link](/).
-    ::
-    ::
-    ```mdc
-    ::alert{type="success" icon="lucide:lightbulb"}
-      A **success** alert with `code` and a [link](/).
-    ::
-    ```
+      :::::
+    ::::
+  
+  ```mdc
+  ::alert{type="success" icon="lucide:lightbulb"}
+    A **success** alert with `code` and a [link](/).
   ::
+  ```
+  :::
 
-  ::stack{label="example" icon="lucide:test-tube"}
-    ::div{class="p-3"}
-    ::alert{type="example" icon="lucide:test-tube"}
+  :::stack{icon="lucide:test-tube" label="example"}
+    ::::div{.p-3}
+      :::::alert{icon="lucide:test-tube" type="example"}
       An **example** alert with `code` and a [link](/).
-    ::
-    ::
-    ```mdc
-    ::alert{type="example" icon="lucide:test-tube"}
-      An **example** alert with `code` and a [link](/).
-    ::
-    ```
+      :::::
+    ::::
+  
+  ```mdc
+  ::alert{type="example" icon="lucide:test-tube"}
+    An **example** alert with `code` and a [link](/).
   ::
+  ```
+  :::
 
-  ::stack{label="warning" icon="lucide:triangle-alert"}
-    ::div{class="p-3"}
-    ::alert{type="warning" icon="lucide:triangle-alert"}
+  :::stack{icon="lucide:triangle-alert" label="warning"}
+    ::::div{.p-3}
+      :::::alert{icon="lucide:triangle-alert" type="warning"}
       A **warning** alert with `code` and a [link](/).
-    ::
-    ::
-    ```mdc
-    ::alert{type="warning" icon="lucide:triangle-alert"}
-      A **warning** alert with `code` and a [link](/).
-    ::
-    ```
+      :::::
+    ::::
+  
+  ```mdc
+  ::alert{type="warning" icon="lucide:triangle-alert"}
+    A **warning** alert with `code` and a [link](/).
   ::
+  ```
+  :::
 
-  ::stack{label="danger" icon="lucide:circle-x"}
-    ::div{class="p-3"}
-    ::alert{type="danger" icon="lucide:circle-x"}
+  :::stack{icon="lucide:circle-x" label="danger"}
+    ::::div{.p-3}
+      :::::alert{icon="lucide:circle-x" type="danger"}
       A **danger** alert with `code` and a [link](/).
-    ::
-    ::
-    ```mdc
-    ::alert{type="danger" icon="lucide:circle-x"}
-      A **danger** alert with `code` and a [link](/).
-    ::
-    ```
+      :::::
+    ::::
+  
+  ```mdc
+  ::alert{type="danger" icon="lucide:circle-x"}
+    A **danger** alert with `code` and a [link](/).
   ::
+  ```
+  :::
 ::
 
 ### Title
 
 ::stack
-  ::div{class="p-4"}
-  ::alert{title="Title" icon="lucide:layout-list"}
+  :::div{.p-4}
+    ::::alert{icon="lucide:layout-list" title="Title"}
     An alert with a title.
-  ::
-  ::
-  ```mdc
-  ::alert{title="Title" icon="lucide:layout-list"}
-    An alert with a title.
-  ::
-  ```
+    ::::
+  :::
+
+```mdc
+::alert{title="Title" icon="lucide:layout-list"}
+  An alert with a title.
+::
+```
 ::
 
 ## Props
 
 ::field-group
-  :field{name="title" type="string"}[Alert title]
-  :field{name="icon" type="string"}[Alert icon]
-  :field{name="type" type="'default' | 'info' | 'warning' | 'success' | 'danger' | 'secondary'" default-value="'default'"}
-  :field{name="to" type="string"}[Link URL]
-  :field{name="target" type="Target"}[A `target` attribute value to apply on the link]
-  :field{name="external" type="boolean"}[Alias to `target='_blank'`]
-  :field{name="showLinkIcon" type="boolean" default-value="true"}[Whether to show the link indicator :icon{name="lucide:arrow-up-right"}]
+:field[Alert title]{name="title" type="string"}
+
+ 
+
+:field[Alert icon]{name="icon" type="string"}
+
+ 
+
+:field{default-value="'default'" name="type" type="'default' | 'info' | 'warning' | 'success' | 'danger' | 'secondary'"}
+
+ 
+
+:field[Link URL]{name="to" type="string"}
+
+ 
+
+:field[A `target` attribute value to apply on the link]{name="target" type="Target"}
+
+ 
+
+:field[Alias to `target='_blank'`]{name="external" type="boolean"}
+
+ 
+
+:field[Whether to show the link indicator :icon{name="lucide:arrow-up-right"}]{default-value="true" name="showLinkIcon" type="boolean"}
 ::

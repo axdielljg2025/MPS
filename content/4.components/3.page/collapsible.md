@@ -17,45 +17,53 @@ badges:
 ### Simple
 
 ::stack
-  ::div{class="p-4 md:p-6"}
-    ::collapsible
+  :::div{.p-4.md:p-6}
+    ::::collapsible
     #title
     Show properties
-
+    
     #content
     This is a **Simple** style collapsible.
-    ::
-  ::
-  ```mdc
-  ::collapsible
-  #title
-  Show properties
+    ::::
+  :::
 
-  #content
-  This is a **Simple** style collapsible.
-  ::
-  ```
+```mdc
+::collapsible
+#title
+Show properties
+
+#content
+This is a **Simple** style collapsible.
+::
+```
 ::
 
 ### Card
 
 ::stack
-  ::div{class="p-4 md:p-6"}
-    ::collapsible{variant="card" title="@peduarte starred 3 repositories"}
+  :::div{.p-4.md:p-6}
+    ::::collapsible{title="@peduarte starred 3 repositories" variant="card"}
     @radix-ui/primitives
-    ::
-  ::
-  ```mdc
-  ::collapsible{variant="card" title="@peduarte starred 3 repositories"}
-  @radix-ui/primitives
-  ::
-  ```
+    ::::
+  :::
+
+```mdc
+::collapsible{variant="card" title="@peduarte starred 3 repositories"}
+@radix-ui/primitives
+::
+```
 ::
 
 ## Props
 
 ::field-group
-  :field{name="variant" type="'simple' | 'card'" default-value="'simple'"}
-  :field{name="title" type="string"}[Collapsible title]
-  :field{name="defaultOpen" type="boolean" default-value="false"}
+:field{default-value="'simple'" name="variant" type="'simple' | 'card'"}
+
+ 
+
+:field[Collapsible title]{name="title" type="string"}
+
+ 
+
+:field{default-value="false" name="defaultOpen" type="boolean"}
 ::

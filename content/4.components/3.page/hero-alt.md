@@ -13,106 +13,106 @@ toc: false
 ## Usage
 
 ::stack
-  ::div{class="p-4"}
-    ::hero-alt
+  :::div{.p-4}
+    ::::hero-alt
     ---
-    announcement:
-      title: 'Introducing Charts'
-      icon: 'lucide:pie-chart'
-      to: /getting-started
     actions:
       - name: Get Started
         to: /getting-started
       - name: GitHub
         variant: ghost
         to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    announcement:
+      title: Introducing Charts
+      icon: lucide:pie-chart
+      to: /getting-started
     ---
-
     #title
     Build your component library
-
+    
     #description
     Beautifully designed components that you can copy and paste into your apps.
-    ::
-  ::
-  ```mdc
-  ::hero-alt
-  ---
-  announcement:
-    title: 'Introducing Charts'
-    icon: 'lucide:pie-chart'
+    ::::
+  :::
+
+```mdc
+::hero-alt
+---
+announcement:
+  title: 'Introducing Charts'
+  icon: 'lucide:pie-chart'
+  to: /getting-started
+actions:
+  - name: Get Started
     to: /getting-started
-  actions:
-    - name: Get Started
-      to: /getting-started
-    - name: GitHub
-      variant: outline
-      to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
-      leftIcon: 'lucide:github'
-  ---
+  - name: GitHub
+    variant: outline
+    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    leftIcon: 'lucide:github'
+---
 
-  #title
-  Build your component library
+#title
+Build your component library
 
-  #description
-  Beautifully designed components that you can copy and paste into your apps.
-  ::
-  ```
+#description
+Beautifully designed components that you can copy and paste into your apps.
+::
+```
 ::
 
 ### Right
 
 ::stack
-  ::div{class="p-4"}
-    ::hero-alt
+  :::div{.p-4}
+    ::::hero-alt
     ---
-    announcement:
-      title: 'Introducing Charts'
-      icon: 'lucide:pie-chart'
-      to: /getting-started
     actions:
       - name: Get Started
         to: /getting-started
       - name: GitHub
         variant: ghost
         to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
-    mobileRight: 'top' # 'top' | 'bottom'
+    announcement:
+      title: Introducing Charts
+      icon: lucide:pie-chart
+      to: /getting-started
+    mobileRight: top
     ---
-
     #title
     Build your component library
-
+    
     #description
     Beautifully designed components that you can copy and paste into your apps.
-
+    
     #right
-    ![logo](/LOGO/JPG/Identidad UCI_Versión Positiva.jpg)
-    ::
-  ::
-  ```mdc
-  ::hero-alt
-  ---
-  announcement:
-    title: 'Introducing Charts'
-    icon: 'lucide:pie-chart'
+    !\[logo]\(/LOGO/JPG/Identidad UCI\_Versión Positiva.jpg)
+    ::::
+  :::
+
+```mdc
+::hero-alt
+---
+announcement:
+  title: 'Introducing Charts'
+  icon: 'lucide:pie-chart'
+  to: /getting-started
+actions:
+  - name: Get Started
     to: /getting-started
-  actions:
-    - name: Get Started
-      to: /getting-started
-    - name: GitHub
-      variant: ghost
-      to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
-  mobileRight: 'top' # 'top' | 'bottom'
-  ---
+  - name: GitHub
+    variant: ghost
+    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+mobileRight: 'top' # 'top' | 'bottom'
+---
 
-  #title
-  Build your component library
+#title
+Build your component library
 
-  #description
-  Beautifully designed components that you can copy and paste into your apps.
+#description
+Beautifully designed components that you can copy and paste into your apps.
 
-  #right
-  ![logo](/logo.svg)
-  ::
-  ```
+#right
+![logo](/logo.svg)
+::
+```
 ::

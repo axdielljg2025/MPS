@@ -1,7 +1,7 @@
 ---
 title: Team Card
 icon: lucide:users
-description: ''
+description: ""
 badges:
   - value: Source
     icon: lucide:code
@@ -11,13 +11,10 @@ badges:
 ---
 
 ::stack
-  ::div{class="p-4"}
-    ::team-card-group
-      ::team-card
+  :::div{.p-4}
+    ::::team-card-group
+      :::::team-card
       ---
-      avatar: https://www.github.com/ZTL-UwU.png
-      name: Tony Zhang
-      title: Author of shadcn-docs-nuxt
       links:
         - icon: lucide:github
           to: https://github.com/ZTL-UwU
@@ -25,15 +22,15 @@ badges:
           to: https://x.com/ZTL_UwU
         - icon: lucide:coffee
           to: https://ko-fi.com/ztl_uwu
+      avatar: https://www.github.com/ZTL-UwU.png
+      name: Tony Zhang
+      title: Author of shadcn-docs-nuxt
       ---
-      ::
-
-      ::team-card
+      :::::
+    
+      :::::team-card
       ---
       center: false
-      avatar: https://www.github.com/ZTL-UwU.png
-      name: Tony Zhang
-      title: Author of shadcn-docs-nuxt
       links:
         - icon: lucide:github
           to: https://github.com/ZTL-UwU
@@ -41,42 +38,46 @@ badges:
           to: https://x.com/ZTL_UwU
         - icon: lucide:coffee
           to: https://ko-fi.com/ztl_uwu
+      avatar: https://www.github.com/ZTL-UwU.png
+      name: Tony Zhang
+      title: Author of shadcn-docs-nuxt
       ---
-      ::
-    ::
-  ::
-  ```mdc
-  ::team-card-group
-    ::team-card
-    ---
-    avatar: https://www.github.com/ZTL-UwU.png
-    name: Tony Zhang
-    title: Author of shadcn-docs-nuxt
-    links:
-      - icon: lucide:github
-        to: https://github.com/ZTL-UwU
-      - icon: lucide:twitter
-        to: https://x.com/ZTL_UwU
-      - icon: lucide:coffee
-        to: https://ko-fi.com/ztl_uwu
-    ---
-    ::
+      :::::
+    ::::
+  :::
 
-    ::team-card
-    ---
-    center: false
-    avatar: https://www.github.com/ZTL-UwU.png
-    name: Tony Zhang
-    title: Author of shadcn-docs-nuxt
-    links:
-      - icon: lucide:github
-        to: https://github.com/ZTL-UwU
-      - icon: lucide:twitter
-        to: https://x.com/ZTL_UwU
-      - icon: lucide:coffee
-        to: https://ko-fi.com/ztl_uwu
-    ---
-    ::
+```mdc
+::team-card-group
+  ::team-card
+  ---
+  avatar: https://www.github.com/ZTL-UwU.png
+  name: Tony Zhang
+  title: Author of shadcn-docs-nuxt
+  links:
+    - icon: lucide:github
+      to: https://github.com/ZTL-UwU
+    - icon: lucide:twitter
+      to: https://x.com/ZTL_UwU
+    - icon: lucide:coffee
+      to: https://ko-fi.com/ztl_uwu
+  ---
   ::
-  ```
+
+  ::team-card
+  ---
+  center: false
+  avatar: https://www.github.com/ZTL-UwU.png
+  name: Tony Zhang
+  title: Author of shadcn-docs-nuxt
+  links:
+    - icon: lucide:github
+      to: https://github.com/ZTL-UwU
+    - icon: lucide:twitter
+      to: https://x.com/ZTL_UwU
+    - icon: lucide:coffee
+      to: https://ko-fi.com/ztl_uwu
+  ---
+  ::
+::
+```
 ::
