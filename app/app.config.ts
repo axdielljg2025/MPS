@@ -134,7 +134,7 @@ export default defineAppConfig({
       title: 'En esta página',
 
       carbonAds: {
-        enable: true,
+        enable: false,
         disableInDev: true,
         disableInMobile: false,
         fallback: false,
