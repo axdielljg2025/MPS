@@ -13,6 +13,13 @@ useSeoMeta({
 });
 
 useServerHead({
+link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: 'https://www.uci.cu/sites/default/files/favicon_0_0.png',
+    },
+  ],
   bodyAttrs: {
     class: themeClass.value,
     style: `--radius: ${radius.value}rem;`,
