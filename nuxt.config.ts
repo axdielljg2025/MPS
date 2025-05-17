@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-og-image',
     '@nuxt/scripts',
+    '@nuxthq/studio',
   ],
 
   shadcn: {
