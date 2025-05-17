@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as s,r as t}from"./RUureBD_.js";const c={},a={class:"group grid gap-4 md:grid-cols-2 [&:not(:first-child)]:mt-5"};function n(r,d){return s(),o("div",a,[t(r.$slots,"default")])}const i=Object.assign(e(c,[["render",n]]),{__name:"CardGroup"});export{i as default};
