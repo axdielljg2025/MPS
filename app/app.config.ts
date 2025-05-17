@@ -113,7 +113,7 @@ export default defineAppConfig({
       }, {
         icon: 'lucide:file-stack',
         title: 'Gestión de Documental',
-        to: 'https://gp.prod.uci.cu/',
+        to: ' https://excriba.prod.uci.cu/',
         target: '_blank',
       }, {
         icon: 'lucide:mail-check',
