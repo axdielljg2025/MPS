@@ -81,7 +81,7 @@ Si deseas contribuir a este proyecto:
 - [motion-vue](https://github.com/motiondivision/motion-vue) 1.5K ⭐️
 - [nuxt-monaco-editor](https://github.com/e-chan1007/nuxt-monaco-editor)
 - [nuxt-umami](https://github.com/ijkml/nuxt-umami)
-- [Msty](https://docs.msty.app/getting-started/onboarding)
+- [Msty](https://docs.msty.app//onboarding)
 - [Add your project 🚀](https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/README.md)
 
 ## Licencia

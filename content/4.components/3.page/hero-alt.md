@@ -18,14 +18,14 @@ toc: false
     ---
     actions:
       - name: Get Started
-        to: /getting-started
+        to: /
       - name: GitHub
         variant: ghost
         to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
     announcement:
       title: Introducing Charts
       icon: lucide:pie-chart
-      to: /getting-started
+      to: /
     ---
     #title
     Build your component library
@@ -41,10 +41,10 @@ toc: false
 announcement:
   title: 'Introducing Charts'
   icon: 'lucide:pie-chart'
-  to: /getting-started
+  to: /
 actions:
   - name: Get Started
-    to: /getting-started
+    to: /
   - name: GitHub
     variant: outline
     to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
@@ -68,14 +68,14 @@ Beautifully designed components that you can copy and paste into your apps.
     ---
     actions:
       - name: Get Started
-        to: /getting-started
+        to: /
       - name: GitHub
         variant: ghost
         to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
     announcement:
       title: Introducing Charts
       icon: lucide:pie-chart
-      to: /getting-started
+      to: /
     mobileRight: top
     ---
     #title
@@ -95,10 +95,10 @@ Beautifully designed components that you can copy and paste into your apps.
 announcement:
   title: 'Introducing Charts'
   icon: 'lucide:pie-chart'
-  to: /getting-started
+  to: /
 actions:
   - name: Get Started
-    to: /getting-started
+    to: /
   - name: GitHub
     variant: ghost
     to: https://github.com/ZTL-UwU/shadcn-docs-nuxt

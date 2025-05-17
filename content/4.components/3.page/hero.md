@@ -16,7 +16,7 @@ badges:
     ---
     actions:
       - name: Get Started
-        to: /getting-started
+        to: /
       - name: GitHub
         variant: outline
         to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
@@ -24,7 +24,7 @@ badges:
     announcement:
       title: Release v1.0.0
       icon: lucide:party-popper
-      to: /getting-started
+      to: /
     ---
     #title
     Effortless and Beautiful :br Docs Template.
@@ -40,10 +40,10 @@ badges:
 announcement:
   title: 'Release v1.0.0'
   icon: 'lucide:party-popper'
-  to: /getting-started
+  to: /
 actions:
   - name: Get Started
-    to: /getting-started
+    to: /
   - name: GitHub
     variant: outline
     to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
