@@ -96,21 +96,33 @@ export default defineAppConfig({
       credits: ' Universidad de las Ciencias Informáticas, Carretera a San Antonio de los Baños, Km 2 ½, reparto Torrens, municipio Boyeros, La Habana, Cuba.[](https://github.com/ZTL-UwU/)',
       // sectionTitle: 'Enlaces de interés',
       links: [{
-        icon: 'lucide:heart',
+        icon: 'lucide:graduation-cap',
         title: 'UCI',
         to: 'https://www.uci.cu/',
         target: '_blank',
       }, {
         icon: 'lucide:facebook',
+        title: 'Facebook',
         to: 'https://www.facebook.com/dcsw.uci',
         target: '_blank',
       }, {
+        icon: 'lucide:calendar-check',
+        title: 'Gestión de Proyectos',
+        to: 'https://gp.prod.uci.cu/',
+        target: '_blank',
+      }, {
+        icon: 'lucide:file-stack',
+        title: 'Gestión de Documental',
+        to: 'https://gp.prod.uci.cu/',
+        target: '_blank',
+      }, {
         icon: 'lucide:mail-check',
-        title: 'direccion.calidadsw@gmail.com',
+        title: 'Correo',
         to: 'https://mail.google.com/mail/?view=cm&fs=1&to=direccion.calidadsw@gmail.com&su=Consulta%20sobre%20MCDAI&body=Estimado%20Departamento%20de%20Calidad%3A%0D%0A%0D%0A',
         target: '_blank',
       }, {
         icon: 'lucide:linkedin',
+        title: 'Linkedin',
         to: 'http://www.linkedin.com/in/dcsw-uci/',
         target: '_blank',
       }],
