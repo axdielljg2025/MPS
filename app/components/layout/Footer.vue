@@ -194,12 +194,11 @@
           <ul class="mt-4 text-center lg:text-left">
             <li class="mb-4">
               <NuxtLink
-                to="http://www.linkedin.com/in/dcsw-uci/"
                 class="hover:text-primary-600 dark:text-primary-200"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                #### DE CALIDAD
+                78358284
               </NuxtLink>
             </li>
             <li class="mb-4">
