@@ -1,23 +1,227 @@
 <script setup lang="ts">
-const { footer } = useConfig().value;
+  //...
 </script>
-
 <template>
-  <footer class="py-6 text-muted-foreground md:px-8 md:py-0">
-    <div class="container flex flex-col items-center justify-between gap-2 md:h-24 md:flex-row">
-      <MDC :value="footer.credits" class="text-sm" />
-      <span class="flex-1" />
-      <NuxtLink
-        v-for="(link, i) in footer.links"
-        :key="i"
-        :to="link?.to"
-        :target="link?.target"
-      >
-        <UiButton variant="ghost" :size="link?.icon && !link?.title ? 'icon' : 'default'" class="flex gap-2">
-          <SmartIcon v-if="link?.icon" :name="link.icon" :size="20" />
-          <span v-if="link?.title">{{ link.title }}</span>
-        </UiButton>
-      </NuxtLink>
+  <footer class="pt-12">
+    <div class="container mx-auto px-8">
+      <div class="flex flex-wrap relative">
+        <div
+          class="-mx-4 flex flex-col flex-wrap items-center pl-4 pr-8 py-4 md:flex-col md:flex-nowrap -mt-4 lg:items-start lg:w-1/3"
+        >
+          <NuxtLink class="-ml-6" to="/">
+          </NuxtLink>
+          <p class="mt-2 text-center w-full lg:text-left flex items-center justify-center lg:justify-start gap-2">
+  <img 
+    src="/LOGO/PNG/ACTUAL.png"
+    alt="Logo UCI"
+    class="h-10 w-auto"
+  />
+  Universidad de las Ciencias Informáticas, Carretera a San Antonio de los Baños, Km 2 ½, reparto Torrens, municipio Boyeros, La Habana, Cuba
+</p>
+
+          <div class="inline-flex mt-6 space-x-3">
+            <div class="flex flex-wrap space-x-4">
+              <NuxtLink
+                href="https://www.facebook.com/vuedesigner"
+                aria-label="facebook"
+                external
+                target="_blank"
+              >
+                <BaseIcon
+                  name="i-logos-facebook"
+                  class="text-2xl"
+                  width="28px"
+                />
+              </NuxtLink>
+              <NuxtLink
+                href="https://twitter.com/vuedesigner"
+                aria-label="twitter"
+                external
+                target="_blank"
+              >
+                <BaseIcon
+                  name="i-logos-twitter"
+                  class="text-2xl"
+                  width="28px"
+                />
+              </NuxtLink>
+              <NuxtLink
+                href="https://discord.gg/BYp45Nnu5T"
+                aria-label="discord"
+                external
+                target="_blank"
+              >
+                <BaseIcon
+                  name="i-logos-discord-icon"
+                  class="text-2xl"
+                  width="28px"
+                />
+              </NuxtLink>
+              <NuxtLink
+                href="https://www.youtube.com/@vuedesigner"
+                aria-label="youtube"
+                external
+                target="_blank"
+              >
+                <BaseIcon
+                  name="i-logos-youtube-icon"
+                  class="text-2xl"
+                  width="28px"
+                />
+              </NuxtLink>
+            </div>
+          </div>
+          
+        </div>
+        <div
+          class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start"
+        >
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            Herramientas
+          </h2>
+          <ul class="text-center lg:mt-2 lg:text-left">
+            <li class="mb-4">
+              <NuxtLink
+                to="https://gp.prod.uci.cu/"
+                class="hover:text-primary-600 dark:text-primary-200"
+                target="_blank"
+                >Gestión de Proyectos</NuxtLink
+              >
+            </li>
+            <li class="mb-4">
+              <NuxtLink
+                to="https://excriba.prod.uci.cu/"
+                class="hover:text-primary-600 dark:text-primary-200"
+                target="_blank"
+                >Gestión Documental</NuxtLink
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start"
+        >
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            Enlaces de Interés
+          </h2>
+          <ul class="text-center lg:mt-2 lg:text-left">
+            <li class="mb-4">
+              <NuxtLink
+                to="https://www.uci.cu/"
+                class="hover:text-primary-600 dark:text-primary-200"
+                target="_blank"
+                >Universidad de las Ciencias Informáticas</NuxtLink
+              >
+            </li>
+            <li class="mb-4">
+              <NuxtLink
+                to="https://www.facebook.com/dcsw.uci"
+                class="hover:text-primary-600 dark:text-primary-200"
+                target="_blank"
+                >Facebook DCSW</NuxtLink
+              >
+            </li>
+            <li class="mb-4">
+              <NuxtLink
+                to="http://www.linkedin.com/in/dcsw-uci/"
+                class="hover:text-primary-600 dark:text-primary-200"
+                target="_blank"
+                >Linkedin DCSW</NuxtLink
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="flex flex-col items-center p-4 w-full md:w-1/3">
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            Gallery
+          </h2>
+          <div class="-mx-2 flex flex-wrap items-center lg:mt-2">
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fHBldHxlbnwwfHx8fDE2MzA0NjI1MjM&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1491485880348-85d48a9e5312?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE1fHxjYXR8ZW58MHx8fHwxNjMwNDY3NzE4&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1591946614720-90a587da4a36?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDIzfHxwZXR8ZW58MHx8fHwxNjMwNDYyNTIz&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDI3fHxjYXR8ZW58MHx8fHwxNjMwNDY3NzE4&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1524511751214-b0a384dd9afe?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDI4fHxwZXR8ZW58MHx8fHwxNjMwNDYyNTIz&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  class="w-full"
+                />
+              </div>
+            </div>
+            <div class="p-2 w-1/2 sm:w-4/12">
+              <div class="block hover:opacity-75 overflow-hidden rounded-xl">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1591561582301-7ce6588cc286?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMwfHxyYWJiaXR8ZW58MHx8fHwxNjMwNDY3NjUw&amp;ixlib=rb-1.2.1q=85&amp;fm=jpg&amp;crop=faces&amp;cs=srgb&amp;w=300&amp;h=250&amp;fit=crop"
+                  class="w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="flex flex-col items-center p-4 w-full md:w-1/3">
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
+            Contáctenos
+          </h2>
+
+          <ul class="mt-4 text-center lg:text-left">
+            <li class="mb-4">
+              <NuxtLink
+                to="http://www.linkedin.com/in/dcsw-uci/"
+                class="hover:text-primary-600 dark:text-primary-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                #### DE CALIDAD
+              </NuxtLink>
+            </li>
+            <li class="mb-4">
+              <NuxtLink
+                to="https://mail.google.com/mail/?view=cm&fs=1&to=direccion.calidadsw@gmail.com&su=Consulta%20sobre%20MCDAI&body=Estimado%20Departamento%20de%20Calidad%3A%0D%0A%0D%0A"
+                class="hover:text-primary-600 dark:text-primary-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                direccion.calidadsw@gmail.com
+              </NuxtLink>
+            </li>          
+          </ul>
+        </div>
+        <div class="flex flex-col sm:w-full md:items-end">
+          <hr class="mb-4 opacity-25" />
+          <p class="py-1 text-sm sm:text-center">
+            &copy; 2002 - 2025. Todos los derechos reservados - UCI
+          </p>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
+<style scoped></style>
