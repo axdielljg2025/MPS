@@ -53,8 +53,8 @@ export const themes = [
     },
   },
   {
-    name: 'slate',
-    label: 'Slate',
+    name: 'Pizarra',
+    label: 'Pizarra',
     activeColor: {
       light: '215.4 16.3% 46.9%',
       dark: '215.3 19.3% 34.5%',
@@ -106,8 +106,8 @@ export const themes = [
     },
   },
   {
-    name: 'stone',
-    label: 'Stone',
+    name: 'Piedra',
+    label: 'Piedra',
     activeColor: {
       light: '25 5.3% 44.7%',
       dark: '33.3 5.5% 32.4%',
@@ -159,8 +159,8 @@ export const themes = [
     },
   },
   {
-    name: 'gray',
-    label: 'Gray',
+    name: 'Gris',
+    label: 'Gris',
     activeColor: {
       light: '220 8.9% 46.1%',
       dark: '215 13.8% 34.1%',
@@ -212,8 +212,8 @@ export const themes = [
     },
   },
   {
-    name: 'neutral',
-    label: 'Neutral',
+    name: 'Neutro',
+    label: 'Neutro',
     activeColor: {
       light: '0 0% 45.1%',
       dark: '0 0% 32.2%',
@@ -264,8 +264,8 @@ export const themes = [
     },
   },
   {
-    name: 'red',
-    label: 'Red',
+    name: 'Rojo',
+    label: 'Rojo',
     activeColor: {
       light: '0 72.2% 50.6%',
       dark: '0 72.2% 50.6%',
@@ -317,8 +317,8 @@ export const themes = [
     },
   },
   {
-    name: 'rose',
-    label: 'Rose',
+    name: 'Rosa',
+    label: 'Rosa',
     activeColor: {
       light: '346.8 77.2% 49.8%',
       dark: '346.8 77.2% 49.8%',
@@ -370,8 +370,8 @@ export const themes = [
     },
   },
   {
-    name: 'orange',
-    label: 'Orange',
+    name: 'Naranja',
+    label: 'Naranja',
     activeColor: {
       light: '24.6 95% 53.1%',
       dark: '20.5 90.2% 48.2%',
@@ -423,8 +423,8 @@ export const themes = [
     },
   },
   {
-    name: 'green',
-    label: 'Green',
+    name: 'Verde',
+    label: 'Verde',
     activeColor: {
       light: '142.1 76.2% 36.3%',
       dark: '142.1 70.6% 45.3%',
@@ -475,8 +475,8 @@ export const themes = [
     },
   },
   {
-    name: 'blue',
-    label: 'Blue',
+    name: 'Azul',
+    label: 'Azul',
     activeColor: {
       light: '221.2 83.2% 53.3%',
       dark: '217.2 91.2% 59.8%',
@@ -527,8 +527,8 @@ export const themes = [
     },
   },
   {
-    name: 'yellow',
-    label: 'Yellow',
+    name: 'Amarillo',
+    label: 'Amarillo',
     activeColor: {
       light: '47.9 95.8% 53.1%',
       dark: '47.9 95.8% 53.1%',
@@ -580,8 +580,8 @@ export const themes = [
     },
   },
   {
-    name: 'violet',
-    label: 'Violet',
+    name: 'Violeta',
+    label: 'Violeta',
     activeColor: {
       light: '262.1 83.3% 57.8%',
       dark: '263.4 70% 50.4%',

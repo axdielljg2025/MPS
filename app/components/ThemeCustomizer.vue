@@ -85,17 +85,17 @@ const { darkModeToggle } = useConfig().value.header;
 // Create an array of color values
 const allColors: Color[] = [
   'zinc',
-  'rose',
-  'blue',
-  'green',
-  'orange',
-  'red',
-  'slate',
-  'stone',
-  'gray',
-  'neutral',
-  'yellow',
-  'violet',
+  'Rosa',
+  'Azul',
+  'Verde',
+  'Naranja',
+  'Rojo',
+  'Pizarra',
+  'Piedra',
+  'Gris',
+  'Neutro',
+  'Amarillo',
+  'Violeta',
 ];
 
 const RADII = [0, 0.25, 0.5, 0.75, 1];
