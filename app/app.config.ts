@@ -14,7 +14,7 @@ export default defineAppConfig({
     },
     theme: {
       customizable: true,
-      color: 'blue',
+      color: 'Azul',
       radius: 0.75,
     },
     banner: {
